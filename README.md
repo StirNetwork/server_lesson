@@ -24,3 +24,7 @@
 
 - [5.1 wordpress を構築してみよう](docs/0051_setup_wordpress.md)
 - [5.2 mattermost.com ( Slack Clone ) を設定してみよう](docs/0052_setup_mattermost.md)
+
+# コラム
+
+- [まんがでわかるLinux シス管系女子(日経XTECH)](https://xtech.nikkei.com/atcl/learning/column/19/00014/)
