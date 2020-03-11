@@ -6,7 +6,6 @@
 # 2. Ubuntu初期設定
 - [2.1 サーバー公開前のセキュリティ強化](docs/0021_security.md)
 - [2.2 システム時刻を自動的に合わせる](docs/0022_ntp.md)
-- [2.3 クライアント(Mac)からLinuxサーバーをリモート操作する](docs/0023_remote_ssh.md)
 
 # 3. Webサーバーを公開する
 - [3.1 Webサーバー構築(Nginx)](docs/0031_nginx_installation.md)
