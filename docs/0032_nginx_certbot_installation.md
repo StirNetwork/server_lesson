@@ -146,6 +146,44 @@ server {
 }
 ```
 
+##  443番のポートを開放する
+
+https接続をすると443番で接続されます。
+
+そのためファイアウォールの設定で、443番のポートを空けます。
+
+```
+// ufw の状態を確認する
+[ubuntu@ip-172-16-1-211]# sudo ufw status
+Status: active
+
+To                         Action      From
+--                         ------      ----
+22                         ALLOW       Anywhere
+80                         ALLOW       Anywhere
+22 (v6)                    ALLOW       Anywhere (v6)
+80 (v6)                    ALLOW       Anywhere (v6)
+
+// port 443 を開ける
+[ubuntu@ip-172-16-1-211]# sudo ufw allow 443
+Rules updated
+Rules updated (v6)
+
+// port 443 が空いたか確認する
+[ubuntu@ip-172-16-1-211]# sudo ufw status
+Status: active
+
+To                         Action      From
+--                         ------      ----
+22                         ALLOW       Anywhere
+80                         ALLOW       Anywhere
+443                        ALLOW       Anywhere
+22 (v6)                    ALLOW       Anywhere (v6)
+80 (v6)                    ALLOW       Anywhere (v6)
+443 (v6)                   ALLOW       Anywhere (v6)
+
+```
+
 # dhparam ファイルの生成
 
 ```
