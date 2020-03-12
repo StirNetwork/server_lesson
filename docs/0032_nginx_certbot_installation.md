@@ -62,11 +62,17 @@ demo.quelcode.k80s.net はご自身のドメインに, <your@mailaddress.co> は
 $ sudo certbot certonly --webroot --webroot-path /var/www/html \
      -d demo.quelcode.k80s.net --server \
       https://acme-v02.api.letsencrypt.org/directory \
-     --agree-tos -m <your@mailaddress.co>
+     --agree-tos -m your@mailaddress.co
 
 ```
 
 途中で聞かれたら `y`を打鍵してください。
+
+CLI上で`Waiting for verification...`と出たら、登録したメールに「Please Confirm Your EFF Subscription」というメールが届きます。
+
+`Click thi link to confirm your email`という文の下記リンクをクリックします。
+
+Confirmが完了し、CLI上が進行します。
 
 
 ## 証明書ファイルの確認
