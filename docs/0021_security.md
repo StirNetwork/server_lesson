@@ -152,13 +152,13 @@ ubuntu@ip-172-16-1-211:~$                             ← ログアウトしま�
 [ubuntu@ip-172-16-1-211]# sudo ufw status
 Status: inactive 
 
-// port 22 を開ける
-[ubuntu@ip-172-16-1-211]# sudo ufw allow 22
+// port 80 を開ける
+[ubuntu@ip-172-16-1-211]# sudo ufw allow 80 ← 80portの接続を許可(allow)する
 Rules updated
 Rules updated (v6)
 
-// port 80 を開ける
-[ubuntu@ip-172-16-1-211]# sudo ufw allow 80
+// port 22 を開ける
+[ubuntu@ip-172-16-1-211]# sudo ufw limit 22 ← 30秒に6回以上のアクセスの場合そのIPを一定時間無効化(limit)する
 Rules updated
 Rules updated (v6)
 
