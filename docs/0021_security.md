@@ -19,7 +19,7 @@ Enter new UNIX password:                    ← labot ユーザのパスワー�
 Retype new UNIX password:                   ← 同じパスワードを入力
 passwd: password updated successfully
 
-[ubuntu@ip-172-16-1-21]# userdel -r labot 　←　一般ユーザーlabotの削除
+[ubuntu@ip-172-16-1-21]# sudo userdel -r labot 　←　一般ユーザーlabotの削除
 userdel: labot mail spool (/var/mail/labot) not found
 userdel: labot home directory (/home/labot) not found
 
