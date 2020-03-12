@@ -10,7 +10,7 @@
 # 3. Webサーバーを公開する
 - [3.1 Webサーバー構築(Nginx)](docs/0031_nginx_installation.md)
 - [3.2 Webサーバー間通信内容暗号化（nginx+Certbot）](docs/0032_nginx_certbot_installation.md)
-- [3.3 Webページパスワード制限(htpasswd)未](docs/0034_nginx_basic_auth.md)
+- [3.3 Webページパスワード制限(htpasswd)](docs/0033_nginx_basic_auth.md)
 
 # 4. データベースシステムを作る 未
 - [4.1 データベースサーバー構築(MySQL)](docs/0041_mysql_installation.md)
