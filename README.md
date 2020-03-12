@@ -6,6 +6,8 @@
 # 2. Ubuntu初期設定
 - [2.1 サーバー公開前のセキュリティ強化](docs/0021_security.md)
 - [2.2 システム時刻を自動的に合わせる](docs/0022_ntp.md)
+- [2.3 zip/unzip によるファイルの圧縮と展開](docs/0023_zip.md)
+- [2.4 LAMP環境の構築](docs/0024_lamp.md)
 
 # 3. Webサーバーを公開する
 - [3.1 Webサーバー構築(Nginx)](docs/0031_nginx_installation.md)
