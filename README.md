@@ -17,7 +17,7 @@
 - [4.2 MySQLデータベース自動バックアップ運用(mysqlhotcopy)](docs/0042_mysql_backup.md)
 
 
-# 5. 実践 未
+# 5. 実践
 
 - [5.1 wordpress を構築してみよう](docs/0051_setup_wordpress.md)
 
