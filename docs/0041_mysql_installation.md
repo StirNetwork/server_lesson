@@ -201,6 +201,13 @@ Query OK, 0 rows affected, 1 warning (0.00 sec)
 
 ## 新規作成したユーザでログイン確認
 
+quitを入力してmysqlからログアウトします
+
+```
+mysql> quit
+```
+
+続いて、先程作成した`labot` ユーザでmysqlにログインします
 
 ```
 $ mysql -u labot -p
