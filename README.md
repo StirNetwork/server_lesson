@@ -8,6 +8,8 @@
 - [2.2 システム時刻を自動的に合わせる](docs/0022_ntp.md)
 - [2.3 zip/unzip によるファイルの圧縮と展開](docs/0023_zip.md)
 - [2.4 LAMP環境の構築](docs/0024_lamp.md)
+- [2.5 .ssh/config でssh を簡単に管理](0025_dot_ssh_config.md)
+- [2.6 SCP によるファイル転送](docs/0026_scp.md)
 
 # 3. Webサーバーを公開する
 - [3.1 Webサーバー構築(Nginx)](docs/0031_nginx_installation.md)
