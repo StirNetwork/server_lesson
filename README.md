@@ -23,7 +23,12 @@
 
 # 5. 実践
 
-- [5.1 wordpress を構築してみよう](docs/0051_setup_wordpress.md)
+- [5.1 WordPress を構築してみよう](docs/0051_setup_wordpress.md)
+- [5.1 Laravel を構築してみよう](docs/0052_setup_laravel.md)
+
+# 6. 付録
+
+- [6.1 エラー対応入門](docs/0061_handle_error.md)
 
 # コラム
 
