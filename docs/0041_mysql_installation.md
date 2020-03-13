@@ -55,7 +55,7 @@ $ pwgen -y 20
 ```
 // mysql_secure_installtion の実行
 
-$ sudo mysql_secure_installtion
+$ sudo mysql_secure_installation
 
 
 Securing the MySQL server deployment.
