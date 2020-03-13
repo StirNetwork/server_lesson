@@ -21,7 +21,8 @@ PHP フレームワークの一つ laravel をセットアップします。
 
 ## 構築
 
-[こちら](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-laravel-with-lemp-on-ubuntu-18-04)  を参考に自分のサーバに Laravel を構築してみよう.
+- [Composer のインストール(英語)](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-18-04)
+- [Laravel のインストール(英語)](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-laravel-with-lemp-on-ubuntu-18-04)  を参考に自分のサーバに Laravel を構築してみよう.
 
 `https://<あなたのgithub アカウント>.<指定したドメイン>/laravel` に表示させるようにしましょう.
 
