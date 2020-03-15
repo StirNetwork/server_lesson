@@ -24,7 +24,8 @@
 # 5. 実践
 
 - [5.1 WordPress を構築してみよう](docs/0051_setup_wordpress.md)
-- [5.1 Laravel を構築してみよう](docs/0052_setup_laravel.md)
+- [5.2 Laravel を構築してみよう](docs/0052_setup_laravel.md)
+- [5.3 Nuxt を構築してみよう](docs/0053_setup_nuxtjs.md)
 
 # 6. 付録
 
