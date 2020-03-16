@@ -6,10 +6,7 @@
 # 2. Ubuntu初期設定
 - [2.1 サーバー公開前のセキュリティ強化](docs/0021_security.md)
 - [2.2 システム時刻を自動的に合わせる](docs/0022_ntp.md)
-- [2.3 zip/unzip によるファイルの圧縮と展開](docs/0023_zip.md)
-- [2.4 LAMP環境の構築](docs/0024_lamp.md)
-- [2.5 .ssh/config でssh を簡単に管理](docs/0025_dot_ssh_config.md)
-- [2.6 SCP によるファイル転送](docs/0026_scp.md)
+- [2.3 LAMP環境の構築](docs/0023_lamp.md)
 
 # 3. Webサーバーを公開する
 - [3.1 Webサーバー構築(Nginx)](docs/0031_nginx_installation.md)
@@ -30,6 +27,9 @@
 # 6. 付録
 
 - [6.1 エラー対応入門](docs/0061_handle_error.md)
+- [6.2 zip/unzip によるファイルの圧縮と展開](docs/0062_zip.md)
+- [6.3 .ssh/config でssh を簡単に管理](docs/0063_dot_ssh_config.md)
+- [6.4 SCP によるファイル転送](docs/0064_scp.md)
 
 # コラム
 
